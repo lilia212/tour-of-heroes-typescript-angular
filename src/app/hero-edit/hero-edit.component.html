@@ -1,0 +1,15 @@
+<div *ngIf="hero">
+    <h2>Édition du héros {{ hero.name }}</h2>
+
+    <form (submit)="save()">
+        <p>
+            <label>name:
+                <input [(ngModel)]="hero.name" placeholder="name" name="heroName">
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="Éditer">
+        </p>
+    </form>
+    <a (click)="goBack()">Revenir en arrière</a>
+</div>

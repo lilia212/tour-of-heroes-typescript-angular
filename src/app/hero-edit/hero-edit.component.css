@@ -1,0 +1,10 @@
+a {
+    cursor: pointer;
+    cursor: hand;
+    font-family: Arial;
+    background-color: #eee;
+}
+
+a:hover {
+    background-color: #cfd8dc;
+}
